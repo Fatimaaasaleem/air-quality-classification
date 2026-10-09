@@ -1,0 +1,38 @@
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# Datasets — keep them local, not on GitHub
+
+data/raw/
+data/interim/
+data/processed/
+
+# Large dataset files anywhere in the repository
+
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# Jupyter checkpoints
+
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# OS files
+
+.DS_Store
+Thumbs.db
